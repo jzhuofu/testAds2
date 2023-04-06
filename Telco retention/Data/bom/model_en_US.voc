@@ -1,4 +1,30 @@
 
+# decisions.mlsamples.telco_retention.data.CostType
+decisions.mlsamples.telco_retention.data.CostType#concept.label = CostType
+decisions.mlsamples.telco_retention.data.CostType.POBCost#instance.documentation = return "POBCost";
+decisions.mlsamples.telco_retention.data.CostType.POBCost#instance.label = POB Cost
+decisions.mlsamples.telco_retention.data.CostType.POBMarkup#instance.documentation = return "POBMarkup";
+decisions.mlsamples.telco_retention.data.CostType.POBMarkup#instance.label = POB Markup
+decisions.mlsamples.telco_retention.data.CostType.calculated#instance.documentation = return "calculated";
+decisions.mlsamples.telco_retention.data.CostType.calculated#instance.label = Calculated
+decisions.mlsamples.telco_retention.data.CostType.coinsurance#instance.documentation = return "coinsurance";
+decisions.mlsamples.telco_retention.data.CostType.coinsurance#instance.label = Coinsurance
+decisions.mlsamples.telco_retention.data.CostType.compoundCharge#instance.documentation = return "compoundCharge";
+decisions.mlsamples.telco_retention.data.CostType.compoundCharge#instance.label = Compound Charge
+decisions.mlsamples.telco_retention.data.CostType.copay#instance.documentation = return "copay";
+decisions.mlsamples.telco_retention.data.CostType.copay#instance.label = Copay
+decisions.mlsamples.telco_retention.data.CostType.cost#instance.documentation = return "cost";
+decisions.mlsamples.telco_retention.data.CostType.cost#instance.label = Cost
+decisions.mlsamples.telco_retention.data.CostType.deductible#instance.documentation = return "deductible";
+decisions.mlsamples.telco_retention.data.CostType.deductible#instance.label = Deductible
+decisions.mlsamples.telco_retention.data.CostType.fee#instance.documentation = return "fee";
+decisions.mlsamples.telco_retention.data.CostType.fee#instance.label = Fee
+decisions.mlsamples.telco_retention.data.CostType.markup#instance.documentation = return "markup";
+decisions.mlsamples.telco_retention.data.CostType.markup#instance.label = Markup
+decisions.mlsamples.telco_retention.data.CostType.newEnumValue#instance.label = new enum value
+decisions.mlsamples.telco_retention.data.CostType.ssf#instance.documentation = return "ssf";
+decisions.mlsamples.telco_retention.data.CostType.ssf#instance.label = SSF
+
 # decisions.mlsamples.telco_retention.data.CustomerRecord
 decisions.mlsamples.telco_retention.data.CustomerRecord#concept.label = customer record
 decisions.mlsamples.telco_retention.data.CustomerRecord.CustomerRecord(double,java.lang.String,decisions.mlsamples.telco_retention.data.Location,java.lang.String,java.lang.String,java.lang.Long,boolean,double)#phrase.navigation = a new {customer record} where {0, estimated income} {1, gender} {2, location} {3, marital status} {4, name} {5, children} {6, car owner} {7, age}

@@ -2,6 +2,59 @@
 package decisions.mlsamples.telco_retention.data;
 
 
+public class CostType
+        extends java.lang.Enum
+        property "ads.typeId" "6"
+        property "com.fasterxml.jackson.annotation.JsonTypeName" "CostType"
+        property "com.ibm.rules.domainProvider.msexcel.b2xColumn" "0"
+        property "com.ibm.rules.domainProvider.msexcel.documentationColumn.en_US" "2"
+        property "com.ibm.rules.domainProvider.msexcel.hasHeader" "true"
+        property "com.ibm.rules.domainProvider.msexcel.labelColumn.en_US" "0"
+        property "com.ibm.rules.domainProvider.msexcel.sheetIndex" "0"
+        property "com.ibm.rules.domainProvider.msexcel.valueColumn" "1"
+        property "de.generated" "true"
+        property domainProviderResource "domains/EnumTypes.xlsx"
+{
+    domain {static POBCost, static POBMarkup, static calculated, static coinsurance, static compoundCharge, static copay, static cost, static deductible, static fee, static markup, static newEnumValue, static ssf}
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType POBCost
+                property "ads.attributeId" "2"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "POBCost";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType POBMarkup
+                property "ads.attributeId" "3"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "POBMarkup";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType calculated
+                property "ads.attributeId" "4"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "calculated";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType coinsurance
+                property "ads.attributeId" "5"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "coinsurance";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType compoundCharge
+                property "ads.attributeId" "6"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "compoundCharge";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType copay
+                property "ads.attributeId" "7"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "copay";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType cost
+                property "ads.attributeId" "8"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "cost";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType deductible
+                property "ads.attributeId" "9"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "deductible";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType fee
+                property "ads.attributeId" "10"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "fee";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType markup
+                property "ads.attributeId" "11"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "markup";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType newEnumValue
+                property "ads.attributeId" "1"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "newEnumValue"
+                property deprecated "true";
+    public static final readonly decisions.mlsamples.telco_retention.data.CostType ssf
+                property "ads.attributeId" "12"
+                property "com.fasterxml.jackson.annotation.JsonProperty" "ssf";
+}
+
 public class CustomerRecord
         property "ads.typeId" "1"
         property "com.fasterxml.jackson.annotation.JsonTypeName" "customerRecord"
