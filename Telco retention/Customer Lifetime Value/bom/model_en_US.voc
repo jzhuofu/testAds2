@@ -1,0 +1,53 @@
+
+# _105924706.samples.telco_retention.customerLifetimeValue.Error
+_105924706.samples.telco_retention.customerLifetimeValue.Error#concept.label = Output error
+_105924706.samples.telco_retention.customerLifetimeValue.Error.Error(java.lang.String,java.lang.String)#phrase.navigation = a new {Output error} where {0, code} {1, message} 
+_105924706.samples.telco_retention.customerLifetimeValue.Error.code#phrase.action = set the code of {this} to {code}
+_105924706.samples.telco_retention.customerLifetimeValue.Error.code#phrase.navigation = {code} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Error.message#phrase.action = set the message of {this} to {message}
+_105924706.samples.telco_retention.customerLifetimeValue.Error.message#phrase.navigation = {message} of {this}
+
+# _105924706.samples.telco_retention.customerLifetimeValue.Input
+_105924706.samples.telco_retention.customerLifetimeValue.Input#concept.label = ML model input
+_105924706.samples.telco_retention.customerLifetimeValue.Input.Input(java.lang.Double,java.lang.String,java.lang.Long,java.lang.Double,java.lang.String,java.lang.String,java.lang.Long,java.lang.String,java.lang.Double)#phrase.navigation = a new {ML model input} where {0, age} {1, car owner} {2, children} {3, est income} {4, gender} {5, paymethod} {6, rateplan} {7, status} {8, usage} 
+_105924706.samples.telco_retention.customerLifetimeValue.Input.age#phrase.action = set the age of {this} to {age}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.age#phrase.addition_setter = add {age} to the age of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.age#phrase.navigation = {age} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.age#phrase.subtraction_setter = subtract {age} from the age of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.carOwner#phrase.action = set the car owner of {this} to {car owner}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.carOwner#phrase.navigation = {car owner} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.children#phrase.action = set the children of {this} to {children}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.children#phrase.addition_setter = add {children} to the children of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.children#phrase.navigation = {children} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.children#phrase.subtraction_setter = subtract {children} from the children of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.estIncome#phrase.action = set the est income of {this} to {est income}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.estIncome#phrase.addition_setter = add {est income} to the est income of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.estIncome#phrase.navigation = {est income} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.estIncome#phrase.subtraction_setter = subtract {est income} from the est income of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.gender#phrase.action = set the gender of {this} to {gender}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.gender#phrase.navigation = {gender} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.paymethod#phrase.action = set the paymethod of {this} to {paymethod}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.paymethod#phrase.navigation = {paymethod} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.rateplan#phrase.action = set the rateplan of {this} to {rateplan}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.rateplan#phrase.addition_setter = add {rateplan} to the rateplan of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.rateplan#phrase.navigation = {rateplan} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.rateplan#phrase.subtraction_setter = subtract {rateplan} from the rateplan of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.status#phrase.action = set the status of {this} to {status}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.status#phrase.navigation = {status} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.usage#phrase.action = set the usage of {this} to {usage}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.usage#phrase.addition_setter = add {usage} to the usage of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.usage#phrase.navigation = {usage} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Input.usage#phrase.subtraction_setter = subtract {usage} from the usage of {this}
+
+# _105924706.samples.telco_retention.customerLifetimeValue.Output
+_105924706.samples.telco_retention.customerLifetimeValue.Output#concept.label = ML model output
+_105924706.samples.telco_retention.customerLifetimeValue.Output.Output(java.lang.Double)#phrase.navigation = a new {ML model output} where {0, prediction} 
+_105924706.samples.telco_retention.customerLifetimeValue.Output.error#phrase.action = set the error of {this} to {error}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.error#phrase.clearer = clear the error of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.error#phrase.navigation = {error} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.inError()#phrase.navigation = {this} is in error
+_105924706.samples.telco_retention.customerLifetimeValue.Output.prediction#phrase.action = set the prediction of {this} to {prediction}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.prediction#phrase.addition_setter = add {prediction} to the prediction of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.prediction#phrase.navigation = {prediction} of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.prediction#phrase.subtraction_setter = subtract {prediction} from the prediction of {this}
+_105924706.samples.telco_retention.customerLifetimeValue.Output.run(_105924706.samples.telco_retention.customerLifetimeValue.Input)#phrase.navigation = predict({0})
